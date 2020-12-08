@@ -1,0 +1,35 @@
+.contactBox{
+	margin: auto;
+}
+
+.contactBox h1{
+	text-align: center;
+}
+
+form{
+	box-sizing: border-box;
+	text-align: center;
+}
+
+form label{
+	text-align: left;
+}
+input, textarea, select{
+	width: 50%;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+
+

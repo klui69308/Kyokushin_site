@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src="JS/main.js"></script>
+		<link rel ="stylesheet" href = "css/background.css">
+		<link rel ="stylesheet" href = "css/main.css">
+		<link rel ="stylesheet" href = "css/loginCss.css">
+		<title> Login </title>
+	</head>
+	<body>
+		<header>
+			<div class = "container">
+				<nav id = "navBar">
+					<div class="navFlex">
+						<div><a href = "home.html"> Home </a></div>
+						<div class = "dropdown">
+							<button class = "dropButton" id = "kyokushin"> Kyokushin </button>
+								<div class = "dropdown-content" id = "kyokushin-content">
+									<a href = "sosai.html"> Sosai Mas Oyama </a>
+									<a href = "hanshiSteveArneil.html"> Hanshi Steve Arneil </a>
+									<a href = "shihanMonaco.html"> Shinhan Mike Monaco </a>
+									<a href = "kyokushin.html"> Kyokushin Karate </a>
+									<a href = "dojoKun.html"> Dojo Kun</a>
+									<a href = "#"> Kyokushin Kata </a>
+								</div>
+						</div>
+						<div><a href = "usa_ifkk.html"> About Us </a></div>
+						<div><a href = "trainingInfo.html"> Training Info </a></div>
+						<div class = "dropdown">
+							<button class = "dropButton" id = "dojos"> Dojo </button>
+								<div class = "dropdown-content" id = "dojo-content">
+									<a href = "eastCoastDojo.html"> East Coast </a>
+									<a href = "midWestDojo.html"> Central </a>
+									<a href = "westCoastDojo.html"> West Coast </a>
+									<a href = "#"> World Dojo </a>
+								</div>
+						</div>
+						<div><a href = "login.html"> Login </a> </div> 
+					</div>
+				</nav>
+			</div>
+		</header>
+		
+		<div class = "container">
+			<div class = "login">
+				<img src = "images/ifkLogo.png" alt = "IFK Logo">
+				<h1> Login </h1>
+				<br>
+				<table>
+					<form>
+						<tr>
+							<td><label for = "login"> Login: </label></td>
+							<td><input type = "text" name = "login" id = "login"></td>
+						</tr>
+						<tr>
+							<td><label for = "password"> Password: </label></td>
+							<td><input type = "password" name = "password" id = "password"></td>
+						</tr>
+						<tr>
+							<td colspan = "2">
+								<input type = "submit" name = "submit" class = "submit" value = "Submit">
+								<input type = "reset" name = "reset" class = "reset" value = "Reset">
+							</td>
+						</tr>
+					</form>
+				</table>
+			</div>
+		</div>
+		
+		<footer class = "mainFooter">
+			<p> Copyright &copy; 2020 USA-IFKK </p>
+		</footer>
+	</body>
+</html>

@@ -1,0 +1,26 @@
+$(document).ready(function(){
+	$("#kyokushin").mouseleave(function(){
+		$("#kyokushin-content").hide();
+	});
+	$("#kyokushin").mouseenter(function(){
+		$("#kyokushin-content").show();
+	});
+	$("#kyokushin-content").mouseenter(function(){
+		$("#kyokushin-content").show();
+	});
+	$("#kyokushin-content").mouseleave(function(){
+		$("#kyokushin-content").hide();
+	});
+	$("#dojos").mouseleave(function(){
+		$("#dojo-content").hide();
+	});
+	$("#dojos").mouseenter(function(){
+		$("#dojo-content").show();
+	});
+	$("#dojo-content").mouseenter(function(){
+		$("#dojo-content").show();
+	});
+	$("#dojo-content").mouseleave(function(){
+		$("#dojo-content").hide();
+	});
+});
